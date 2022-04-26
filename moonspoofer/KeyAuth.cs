@@ -750,15 +750,6 @@ namespace KeyAuth
             user_data.subscriptions = data.subscriptions; // array of subscriptions (basically multiple user ranks for user with individual expiry dates 
         }
         #endregion
-        public string expirydaysleft()
-        {
-            Checkinit();
-
-            System.DateTime dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, System.DateTimeKind.Local);
-            dtDateTime = dtDateTime.AddSeconds(long.Parse(user_data.subscriptions[0].expiry)).ToLocalTime();
-            TimeSpan difference = dtDateTime - DateTime.Now;
-            return Convert.ToString(difference.Days + " Days " + difference.Hours + " Hours ");
-        }
 
         #region response_struct
         public response_class response = new response_class();

@@ -67,14 +67,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MoonSpoofer.exe" size="379808">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MoonSpoofer.exe" size="379296">
       <assemblyIdentity name="MoonSpoofer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>02VSQqFvptcle3i0bc5utV9rRj1xUT5OFSdlTQvm5kk=</dsig:DigestValue>
+        <dsig:DigestValue>xWe5XNNLT7PbCkZO3s6K1lxwKq3aIa6fKXgH0c4gmRU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

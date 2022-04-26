@@ -40,10 +40,10 @@ MessageBox.Show(KeyAuthApp.var("123456")); // retrieve application variable
         //KeyAuthApp.login("username", "password"); 
 
         public static api KeyAuthApp = new api(
-            name: "PUT YOUR KEYATUH",
-            ownerid: "PUT YOUR KEYATUH",
-            secret: "PUT YOUR KEYATUH",
-            version: "PUT YOUR KEYATUH"
+            name: "moonspoofer",
+            ownerid: "8NR8M3jnwB",
+            secret: "b23ad1c4eace9bd3e51e442808c38b5abf38fb4335ffb0bddee84574d7fc1c7d",
+            version: "1.0"
         );
 
         public Login()

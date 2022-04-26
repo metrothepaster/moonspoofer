@@ -31,10 +31,10 @@ namespace KeyAuth
         private void Main_Load(object sender, EventArgs e)
         {
             Login.KeyAuthApp.check();
-            nazwa.Text = "" + Login.KeyAuthApp.user_data.username;
-            dokiedy.Text = Login.KeyAuthApp.expirydaysleft();
-            createDate.Text = "" + UnixTimeToDateTime(long.Parse(Login.KeyAuthApp.user_data.createdate));
-            version.Text = Login.KeyAuthApp.app_data.version;
+            nazwa.Text = "discord.gg/astrolit";
+            dokiedy.Text = "discord.gg/astrolit";
+            createDate.Text = "discord.gg/astrolit";
+            version.Text = "discord.gg/astrolit";
 
         }
 
